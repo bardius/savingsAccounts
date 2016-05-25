@@ -1,0 +1,14 @@
+.o-wrapper {
+  width: 940px;
+}
+
+.o-row__column {
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.c-accounts-table li ul li {
+  width: 23%;
+  padding: 0 1%;
+}

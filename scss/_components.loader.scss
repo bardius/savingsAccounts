@@ -1,0 +1,11 @@
+.c-loader {
+    margin: $base-spacing-unit* 2 auto;
+    display: inline-block;
+    background-color: $color-brand;
+    color: $color-light-blue;
+    padding: $base-spacing-unit * 2;
+    text-align: center;
+    height: $base-spacing-unit;
+    min-width: $base-spacing-unit;
+    @include font-size(12px);
+}

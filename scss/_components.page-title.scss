@@ -1,0 +1,11 @@
+.c-page-title {
+    padding: $base-spacing-unit;
+    margin-bottom: $base-spacing-unit * 2;
+}
+
+@media #{$medium-down} {
+
+    .c-page-title {
+
+    }
+}

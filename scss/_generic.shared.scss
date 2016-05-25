@@ -1,0 +1,66 @@
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl,
+blockquote, p, address,
+hr,
+table,
+fieldset, figure,
+pre {
+    margin-bottom: $base-spacing-unit;
+}
+
+ul, ol,
+dd {
+    margin-left: $base-spacing-unit;
+}
+
+iframe {
+    left: 0;
+    border: none!important;
+}
+
+.inv {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.hidden {
+    display: none!important;
+    visibility: hidden!important;
+}
+
+img {
+    border: none;
+}
+
+strong {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: bold;
+}
+
+table {
+    font-size: inherit;
+    float: left;
+    border-spacing: 0!important;
+    border-collapse: collapse!important;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}

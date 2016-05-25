@@ -1,0 +1,32 @@
+{
+  "name": "savingsAccounts",
+  "version": "1.0.0",
+  "homepage": "https://github.com/savingsAccounts/",
+  "authors": [
+    "George Bardis @bardius george@bardis.info"
+  ],
+  "description": "",
+  "license": "MIT",
+  "keywords": [
+    "Savings Accounts"
+  ],
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "js/libs",
+    "js/tests",
+    "test"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "jquery": "~1.9.0",
+    "jasmine-jquery": "2.0.4",
+    "modernizr": "~2.8.3",
+    "es5-shim": "~4.5.8",
+    "es6-promise": "~3.2.2"
+  },
+  "resolutions": {
+    "jquery": ">=2"
+  }
+}

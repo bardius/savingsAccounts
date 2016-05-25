@@ -1,0 +1,114 @@
+.c-accounts-table {
+    width: 100%;
+    list-style: outside none none;
+    border: 1px solid $color-brand;
+    margin-bottom: $base-spacing-unit;
+    margin-left: 0;
+    overflow: hidden;
+    position: relative;
+
+    li {
+        list-style: outside none none;
+        padding: 0;
+        text-align: left;
+        position: relative;
+        width: 100%;
+        float: left;
+        overflow: hidden;
+
+        &:nth-child(even) {
+            background-color: $color-light-blue;
+        }
+
+        &.table-heading {
+            background-color: $color-brand!important;
+            color: $color-light-blue;
+        }
+
+        ul {
+            width: 100%;
+            float: left;
+            margin-left: 0;
+            margin-bottom: 0;
+
+            li {
+                width: 25%;
+                float: left;
+                border-bottom: 1px dotted $color-brand;
+                list-style: outside none none;
+                padding: 0 $base-spacing-unit;
+                text-align: left;
+
+                &:nth-child(even) {
+                    background-color: transparent;
+                }
+
+                .legend {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media #{$medium-down} {
+
+    .c-accounts-table {
+        width: 100%!important;
+
+        li {
+            width: 100%!important;
+
+            &.c-accounts-table__row {
+                display: none;
+
+                &.active {
+                    display: block;
+                }
+            }
+
+            &:nth-child(even) {
+                background-color: transparent;
+            }
+
+            &.table-heading {
+                display: none;
+            }
+
+            ul {
+
+                li {
+                    width: 100%!important;
+                    text-align: center;
+
+                    &:nth-child(even) {
+                        background-color: $color-light-blue;
+                    }
+
+                    &.accountTitle {
+                        background-color: $color-brand;
+                        color: $color-light-blue;
+                    }
+
+                    .legend {
+                        display: inline;
+                    }
+                }
+            }
+        }
+    }
+
+    .tableNavigation {
+        width: 100%;
+        margin-bottom: $base-spacing-unit;
+        overflow: hidden;
+
+        .tableNavigation__prev{
+            float: left;
+        }
+
+        .tableNavigation__next{
+            float: right;
+        }
+    }
+}

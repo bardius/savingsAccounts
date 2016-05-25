@@ -1,0 +1,31 @@
+{
+    "modifiedAt": 1463874048253,
+    "products": [
+        {
+            "accountTitle": "Fixed Saver",
+            "accountType": "fixedSaver",
+            "interestRate": "2.20",
+            "minimumDeposit": "500",
+            "interestType": "fixed",
+            "hasSpecialNotice": false
+        },
+        {
+            "accountTitle": "Flex Saver",
+            "accountType": "flexSaver",
+            "interestRate": "1.50",
+            "minimumDeposit": "0",
+            "interestType": "tracker",
+            "hasSpecialNotice": false
+        },
+        {
+            "accountTitle": "Offset Saver",
+            "accountType": "offsetSaver",
+            "interestRate": "1.80",
+            "minimumDeposit": "1000",
+            "interestType": "fixed",
+            "hasSpecialNotice": true
+        }
+    ],
+    "currency": "GBP",
+    "language": "EN"
+}

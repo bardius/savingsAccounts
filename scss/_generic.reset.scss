@@ -1,0 +1,16 @@
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+figure,
+table, th, td, caption,
+hr {
+    margin:  0;
+    padding: 0;
+}
+
+header, nav, article, footer, address,
+section, aside, hgroup, figure, main{
+    display: block;
+}

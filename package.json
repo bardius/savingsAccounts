@@ -1,0 +1,69 @@
+{
+  "name": "savingsAccounts",
+  "title": "Savings Accounts Application",
+  "description": "savingsAccounts",
+  "version": "1.0.0",
+  "homepage": "",
+  "docs": "https://github.com/bardius/savingsAccounts/master/README.md",
+  "authors": [
+    {
+      "name": "George Bardis",
+      "url": "http://www.bardis.info"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bardius/savingsAccounts"
+  },
+  "bugs": {
+    "url": "https://github.com/bardius/savingsAccounts/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4.4.4"
+  },
+  "devDependencies": {
+    "assemble": "~0.4.42",
+    "autoprefixer": "^6.0.1",
+    "autoprefixer-core": "^6.0.1",
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~3.0.3",
+    "grunt-bower-task": "~0.4.0",
+    "grunt-combine-mq": "~0.9.0",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-connect": "~1.0.2",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-jasmine": "~1.0.3",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-sass": "~1.0.0",
+    "grunt-contrib-uglify": "~1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-csso": "~1.0.0",
+    "grunt-csssplit": "~0.4.0",
+    "grunt-jsdoc": "^2.0.0",
+    "grunt-karma": "~1.0.0",
+    "grunt-karma-coveralls": "^2.5.2",
+    "grunt-newer": "~1.2.0",
+    "grunt-notify": "~0.4.0",
+    "jasmine-core": "~2.4.1",
+    "jit-grunt": "~0.10.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-htmlfile-reporter": "^0.2.2",
+    "karma-jasmine": "~1.0.2",
+    "karma-jshint-preprocessor": "0.0.6",
+    "karma-junit-reporter": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "load-grunt-config": "~0.19.1",
+    "load-grunt-tasks": "~3.5.0",
+    "phantomjs-prebuilt": "~2.1.1"
+  },
+  "keywords": [
+    "Savings Accounts"
+  ],
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}

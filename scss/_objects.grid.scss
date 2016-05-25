@@ -1,0 +1,20 @@
+.o-row {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.o-row__column {
+    float: left;
+    width: 100%;
+    padding-left: $base-spacing-unit;
+    padding-right: $base-spacing-unit;
+
+    .o-row {
+        margin-left: -$base-spacing-unit;
+    }
+}
