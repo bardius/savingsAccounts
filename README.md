@@ -1,5 +1,7 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Build Status](https://travis-ci.org/bardius/savingsAccounts.svg?branch=master)](https://travis-ci.org/bardius/savingsAccounts)
+[![Dependency Status](https://www.versioneye.com/user/projects/574612face8d0e00360bd640/badge.png)](https://www.versioneye.com/user/projects/574612face8d0e00360bd640)
+[![Dependency Status](https://www.versioneye.com/user/projects/574612fbce8d0e004130c785/badge.png)](https://www.versioneye.com/user/projects/574612fbce8d0e004130c785)
 
 Savings Accounts Application
 ============================================================================
