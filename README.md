@@ -64,8 +64,8 @@ page or another partial. Pages can have variables whose values are defined in th
 In the /scss folder you can find the existing styles and place your own. IT css methodology has been used for the 
 conventions.
 
-The application JavaScript is getting "bootstrapped" the /js/script.js file following structural pattern and self 
-declaring variable/method names. Alternatively, AJAX loading and responsive table features are written as jQuery plugins 
+The application JavaScript is getting "bootstrapped" the /js/src/script.js file following structural pattern and self 
+declaring variable/method names. Additionally, AJAX data loading and responsive table features are written as jQuery plugins 
 with a module pattern.
 
 The mock data file for the response of the API endpoint that should provide the Savings Accounts table data can be found
@@ -78,10 +78,10 @@ Grunt tasks
 Grunt tasks have been created to support the automated builds while developing and when releasing to environments.
 The existing tasks can be found under the /grunt folder and are grouped in shorthand tasks within Gruntfile.js
 
-Essentially by running grunt serve all the assets are generated, a local server is spin up and tests are run, while 
+Essentially by running "grunt serve" all the assets are generated, a local server is spin up and tests are run, while 
 watch rebuilds any required assets, runs test and uses live reload as necessary.
  
-To generate the fully optimized assets that should be deployed for a release candidate, grunt bundle executed the 
+To generate the fully optimized assets that should be deployed for a release candidate, "grunt bundle" executes the 
 required tasks.
 
     All available tasks:
@@ -101,7 +101,7 @@ required tasks.
 Testing, coverage & reports
 ---------------------------------------------
 
-Karma is in place as a test runner with jasmine for unit tests. 
+Karma is in place as a test runner with jasmine for unit tests. Sample unit tests are included to showcase configuration.
 Tests can be run with the corresponding grunt tasks. Upon the tests completion reports are getting generated for coverage
 and unit testing scenarios and are placed within /test/test-reports.
 
